@@ -20,7 +20,7 @@ Esta es una aplicación de calculadora básica desarrollada en Android Studio, u
 
 1. Clona este repositorio en tu máquina local:
     ```bash
-    git clone https://github.com/tu-usuario/calculadora-android.git
+    git clone https://github.com/matteozz020202/calculadora-android.git
     ```
 2. Abre el proyecto en Android Studio:
     ```bash
