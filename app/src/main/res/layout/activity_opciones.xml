@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Opciones">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center_horizontal|center_vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Operaciones" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+
+
+        <EditText
+            android:id="@+id/edt_num1"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="20dp"
+            android:hint="0"
+            android:inputType="number"
+            android:gravity="center"
+            android:background="#ADD8E6"/>
+
+        <Spinner
+            android:id="@+id/id_Spinner"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+
+            >
+        </Spinner>
+
+        <EditText
+            android:id="@+id/edt_num2"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:hint="0"
+            android:inputType="number"
+            android:gravity="center"
+            android:background="#ADD8E6"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_operar"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#FFCCCB"
+            android:text="Calcular">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
